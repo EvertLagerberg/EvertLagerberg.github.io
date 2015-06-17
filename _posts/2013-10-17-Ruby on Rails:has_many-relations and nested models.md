@@ -10,7 +10,7 @@ Add a belongs_to statement to your Comment model
 But for my Cookbook-app I wanted the possibility of adding a recipe-object and all the ingredient-objects in that recipe within the same form:
 
 
-![Form example][{{ site.baseurl }}/images/config.png]
+![My helpful screenshot]({{ site.url }}/images/nestled_form.jpg)
 
 After some reading on this problem i found out that you can achieve this by using "accepts_nested_attributes_for. By putting "accepts_nested_attributes_for :ingredients" in to the recipe model I make this nestled form possible. Then you can use the field_for method in my View to add new recipes to be able to add atrributes to the associated ingredients for that recipe in that same form.
 
