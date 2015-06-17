@@ -13,21 +13,19 @@ After some reading on this problem i found out that you can achieve this by usin
 
  Then i got stuck for a little bit, thinking too much about creating a controller for ingredients. In the end it turns out that i can do all I need from within the recipe controller. First I needed to update the recipe method new. Since new is passing POST information to the recipes/new-view:
  
-
+``` 
 def new
-
     @recipe = Recipe.new
     3.times { @recipe.ingredients.build }
-
 end
-
+```
 
 This way everytime I create a instancevariable containing a new recipe-object i also associate three ingredient-object with it. Then in the view, the field_for method creates input rows for each of these ingredients.
 
 Next I needed to add the ingredients attributes to the recipe controllers create-method:
 
+```
   def create
-  
     @recipe = Recipe.new(params[:recipe].permit(:title, :desc, ingredients_attributes: [:name]))
 
     if @recipe.save
@@ -36,6 +34,7 @@ Next I needed to add the ingredients attributes to the recipe controllers create
       render "new"
     end
   end
+```
 
 I got stuck on this for a while cause the way of doing this is different from rails 3 and rails  4 which I use, so most of the info i find online was missleading. This is something to consider for future problems!
 
