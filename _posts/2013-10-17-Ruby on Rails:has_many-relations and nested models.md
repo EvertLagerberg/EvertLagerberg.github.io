@@ -13,7 +13,7 @@ After some reading on this problem i found out that you can achieve this by usin
 
  Then i got stuck for a little bit, thinking too much about creating a controller for ingredients. In the end it turns out that i can do all I need from within the recipe controller. First I needed to update the recipe method new. Since new is passing POST information to the recipes/new-view:
  
-``` 
+```ruby
 def new
     @recipe = Recipe.new
     3.times { @recipe.ingredients.build }
@@ -24,7 +24,7 @@ This way everytime I create a instancevariable containing a new recipe-object i 
 
 Next I needed to add the ingredients attributes to the recipe controllers create-method:
 
-```
+```ruby
   def create
     @recipe = Recipe.new(params[:recipe].permit(:title, :desc, ingredients_attributes: [:name]))
 
