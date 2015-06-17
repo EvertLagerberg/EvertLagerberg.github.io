@@ -18,7 +18,7 @@ def new
 
     @recipe = Recipe.new
     3.times { @recipe.ingredients.build }
-    
+
 end
 
 
@@ -27,6 +27,7 @@ This way everytime I create a instancevariable containing a new recipe-object i 
 Next I needed to add the ingredients attributes to the recipe controllers create-method:
 
   def create
+  
     @recipe = Recipe.new(params[:recipe].permit(:title, :desc, ingredients_attributes: [:name]))
 
     if @recipe.save
