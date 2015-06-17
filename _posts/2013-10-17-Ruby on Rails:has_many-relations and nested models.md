@@ -12,11 +12,13 @@ But for my Cookbook-app I wanted the possibility of adding a recipe-object and a
 After some reading on this problem i found out that you can achieve this by using "accepts_nested_attributes_for. By putting "accepts_nested_attributes_for :ingredients" in to the recipe model I make this nestled form possible. Then you can use the field_for method in my View to add new recipes to be able to add atrributes to the associated ingredients for that recipe in that same form.
 
  Then i got stuck for a little bit, thinking too much about creating a controller for ingredients. In the end it turns out that i can do all I need from within the recipe controller. First I needed to update the recipe method new. Since new is passing POST information to the recipes/new-view:
-  
+ 
+``` 
 def new
     @recipe = Recipe.new
     3.times { @recipe.ingredients.build }
-  end
+end
+```
 
 This way everytime I create a instancevariable containing a new recipe-object i also associate three ingredient-object with it. Then in the view, the field_for method creates input rows for each of these ingredients.
 
