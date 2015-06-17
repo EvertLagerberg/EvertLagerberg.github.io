@@ -1,10 +1,16 @@
 ---
 layout: post
-title: You're up and running!
+title: Moving to Jekyll and Github pages!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+I decided to move my blog from Blogger to using Jekyll to generate my blog at Github Pages.
+
+Blogging with Jekyll is different from using Blogger or any other CMS. There are literally hundreds of articles online describing the benefits of using Jekyll and how to make the switch.
+
+I never really liked Blogger and I am also planning to build a portfolio website to go along with the blog so this will be the start of that project as well.
+
+Ok lets go!
+
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
