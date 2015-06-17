@@ -4,7 +4,7 @@ title: Ruby on Rails:has_many-relations and nested models
 ---
 
 Ruby on rails has a very easy convienent structure for building relations between objects of different classes. For example if you want to make it possible to relate many comments to many blogposts you can just:
-Add a has _ many statement to the Post model
+Add a has_many statement to the Post model
 Add a belongs_to statement to your Comment model
 
 But for my Cookbook-app I wanted the possibility of adding a recipe-object and all the ingredient-objects in that recipe within the same form:
