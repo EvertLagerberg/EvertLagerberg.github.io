@@ -7,7 +7,6 @@ title: Ambient Visualization of Energy(d3.js)
 
 This was a project for a course at KTH, Stockholm in information visualization. The following instructions was giving for the project:
 
-```
 Instructions
 Fortum has hired you to visualize energy consumption in the home. They have specified the visualization to be:
 
@@ -34,7 +33,6 @@ You remember that in your visualization course you talked about casual visualiza
 Your task is to satisfy the requirements of your client by hosting a webpage with the clock. It should have a subtle link to a 300-word explanation of your data mappings, visual structures, and other choices.
 
 Are you up to the challenge? Do you have any questions?
-```
 
 ###Interpretation of data
 ![My helpful screenshot]({{ site.url }}/images/energyviz1.png)
