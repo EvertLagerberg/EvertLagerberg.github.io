@@ -51,7 +51,7 @@ Low-fi-prototype: From the Boston Flickr project I kept the circular shape and t
 
 ![My helpful screenshot]({{ site.url }}/images/energyviz3.png)
 
-![My helpful screenshot]({{ site.url }}/images/energyviz4.png) 
+![My helpful screenshot]({{ site.url }}/images/energyviz4.png)
 
 It feels natural that cold water should be represented with blue and hot water with red. Electricity cold be yellow or ice blue, but yellow looked ugly and blue was already taken. I chose purple.
 
