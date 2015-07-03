@@ -46,20 +46,24 @@ Are you up to the challenge? Do you have any questions?
 ###Visual Mappings
 The structure and characteristics (and lack of) data does not allow us to use exactly the visual mappings of the Boston Flickr project. However we can interpret the adjectives they have given us and create something that at first glance looks similar to that project but really is quite different. Sometimes in interaction design, you have to be creative in how to persuade clients :)
 ![My helpful screenshot]({{ site.url }}/images/energyviz2.png) 
+
 Low-fi-prototype: From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water, the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. Important!: The color codes where later changed!
 
-![My helpful screenshot]({{ site.url }}/images/energyviz3.png) 
+![My helpful screenshot]({{ site.url }}/images/energyviz3.png)
+
 ![My helpful screenshot]({{ site.url }}/images/energyviz4.png) 
+
 It feels natural that cold water should be represented with blue and hot water with red. Electricity cold be yellow or ice blue, but yellow looked ugly and blue was already taken. I chose purple.
 
 ###Adding live data
 ![My helpful screenshot]({{ site.url }}/images/energyviz5.png) 
+
 I liked their metaphor for a dashboard for a driving car given by the client
 
 I am aware of the problems of [rebound effects](http://enviroinfo.eu/sites/default/files/pdfs/vol7574/0013.pdf) in persuasive ICT which aims to lower consumption. As argued by [Owen (2011)](https://www.youtube.com/watch?v=2S1mPOWRsSc) the only effective method of reducing the energy consumption of any system is by the users continuous intent to use less energy. So I wanted to create a visualisation that would inspire the user to always try to lower their energy consumption in comparison with the relevant season of last year.
 
 ###High-fi-prototype:
-![My helpful screenshot]({{ site.url }}/images/energyviz5.png) 
+![My helpful screenshot]({{ site.url }}/images/energyviz6.png) 
 Blue = cold water, Red = hot water, Purple = Electricity
 magine that we are in looking at the visualisation on Sunday 7 march 2015. The visualisation shows a typical Sunday in March from last year. What this really means is that each hour has been calculated as an average of that hour for every Sunday in march 2014.
 
@@ -67,4 +71,4 @@ On the right side, we see the streaming live data of energy consumption in the h
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
 
-![My helpful screenshot]({{ site.url }}/images/energyviz6.png) 
+![My helpful screenshot]({{ site.url }}/images/energyviz7.png) 
