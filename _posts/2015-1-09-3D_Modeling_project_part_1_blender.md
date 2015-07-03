@@ -32,3 +32,29 @@ Next up I wanted to add the green and gold textures of the trash bin. I found it
 
 My modelling of the trash bin was finished!
 ![My helpful screenshot]({{ site.url }}/images/trashbinmodel8.png)
+
+Finally I wanted to try to input my model into Unity. I have never used Unity before and it seems like quite a complex program. Fortunately, first time I used it, it loaded up a default game world and it was easy for med to import my model as .fbx directly into it. Looks good! However I had some problems loading in the materials I created in blender. (the materials shown here are similare materials that I added in Unity). Will have to investigate how to export from blender to unity in .fbx with the materials included.
+![My helpful screenshot]({{ site.url }}/images/trashbinunity1.png)
+
+###Problems with materials
+After initially just dragging in my model into Unity and saw that it more or less worked I had to work on some details. First, I had problems with the the materials(the blue/green and gold metallic colours) I had created in Blender. After a lot of googling I came to the conclusion that this probably not worked for one of two reasons or both:
+
+1. I used the Cycles Engine in Blender to construct my materials. I do not know if this works outside of Blender
+
+2. My materials used combinations of Glossy shaders. As I understand it, shaders works differently in distinct environments why you can not just translate it from Blender to Unity.
+
+I considered using Crazybumps to create textures of the materials I had created in Blender and loading them in that way to Unity but this would include a lot of extra work. In the end I chose an easy way out. I loaded in screenshots of the rendered trashbin into Unity and then took samples of the colors to create new materials in Unity. I then worked with Unitys internal shaders to try to create the same metallic surface. The result was OK, however next time I will definitely try to plan my work flow differently!
+![My helpful screenshot]({{ site.url }}/images/trashbinmodel9.png)
+
+###Creating a scene
+Investigating my materials problems, I learned a lot about the Unity architecture. So I created a new scene. Added a floor with a pavement texture, some lightning, my trash bin model and a First-Person-Controller. From there I could press play and walk around and look at my model. Nice!
+
+###Editing model
+However I noticed another problem! I could trough to the other side of the trash bin! But circling around to the other side of the model, it was solid. I had not created an interior of the model! I went back to blender, created some new faces and extruded to created and interior, a bottom and a roof of the trash bin. But I still had some problems! After a lot of googling I understood that faces actually has a back and a front side. And only the front side is covered by the material, from the back of the face you can see through it. So I had to display normals in Blender so I could see which faces where turned and then flip normals to turn them around. The picture below show the difference between the model before and after I made this changes, in the scene of Unity.
+![My helpful screenshot]({{ site.url }}/images/trashbinunity2.png)
+
+In the end this problems I had with loading in my model to Unity really forced me to read up on how the Unity architecture works and I now feel that I have a basic understanding of how to move between between Blender and Unity. On my next project, because of this, my workflow will probably be quite more straightforward. However I am definitely interested in exploring both Blender and Unity more!
+
+Here is a link to walk around my my scene and look at the trashbin:
+[http://www.csc.kth.se/~evertla/Intro/project/KTH_trashbin.html](http://www.csc.kth.se/~evertla/Intro/project/KTH_trashbin.html)
+
