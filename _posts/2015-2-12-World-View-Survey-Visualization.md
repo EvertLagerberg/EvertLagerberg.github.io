@@ -9,9 +9,9 @@ I searched for interesting data in the open database of the World View Survey. T
 Their survey, which started in 1981 is conducted in rounds, or “waves” as the WVS calls it. Until now they have conducted 6 waves each spanning over 4-5 years. Since the survey questions to a large extent are unaltered between waves it is possible to research how social values have shifted over the last decades. I thought this aspect of time was the most fascinating scale of the WVS data. Through their Online Visualisation Tool it is possible to learn how answers to a certain question have been answered in each wave. I started exploring how different answers to different questions had changed over time. I was mostly interested in South American countries and political values since this is something that interests me and I have some knowledge about. Many nations in the area have a history of military regime and dictatorships across the 1900s. The ensuing democratic systems instituted in these nations since the 1980s have generally been week and struggling but continuous. In this context I found an intricate survey question in the data:
 
 
-*“I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?" 
+*“I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?"* 
 
-Option 1: Having a strong leader who does not have to bother with parliament and elections”*
+*Option 1: Having a strong leader who does not have to bother with parliament and elections”*
 
 This question is interesting to me, because it reflects on both the fact that these nations have a history of violent military regimes but also on frustration towards the current democratic system. I spent last summer in Argentina; a country in deep economical crisis so I thought it might be interesting to see how answers to this question had changed over time. Here is the data from the World View Survey:
 ![My helpful screenshot]({{ site.url }}/images/WWS1.png)
