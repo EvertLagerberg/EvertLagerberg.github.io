@@ -1,6 +1,6 @@
 ---
 layout: post
-title: World View Survey Visualization
+title: World View Survey(WVS) Visualization
 ---
 
 ####Finding interesting Data
