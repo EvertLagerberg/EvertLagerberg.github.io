@@ -53,10 +53,11 @@ I created a view in D3 where the state of the pie chart could be altered by clic
 
 ###Expanding my research questions
 I was happy with my visualisation of Argentina's posture on strong leaders over time. However I was interesting to see how this corresponded with other South American nations. So I made equivalent visualisations for all South American nations available from the WVS data base and place them in the same view as the Argentina visualisation. Unfortunately not all the wave 3 through wave 6 was available for all countries, why I had some states completely grey (meaning "no data) I thought it would be cool if the user could play time forward for all nations simultaneously so I added a overall control that rules over all other controls. The user can still interact with individual pie charts. I also added a small box which appears when hovering over each nations pie chart. This works as details-on-demand about the political history of each nation.
+![My helpful screenshot]({{ site.url }}/images/WWS5.png)
 
 ###Ending thoughts
 I was happy to try out D3.js for the first time! I learned a lot! It seems like a very powerful visualisation tool and I look forward to taking on more difficult tasks with its help. During this process, I wanted to make an animated visualisation. Unlike more static visualisation which can easily be sketched out on paper or prototyped in a graphic design software, I had to try to visualise it in my head and I was not really sure how it would turn out until much later when I had coded it. I wonder if there are any good methods for prototyping animation? In any case very interesting process!
-![My helpful screenshot]({{ site.url }}/images/WWS4.png)
+
 
 
 *This project was made as part of a course in Information Visualisation at KTH.*
