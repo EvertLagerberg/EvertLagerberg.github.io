@@ -7,7 +7,7 @@ title: Ambient Visualization of Energy(d3.js)
 
 This was a project for a course at KTH, Stockholm in information visualization. The following instructions was giving for the project:
 
-Instructions
+###Instructions
 Fortum has hired you to visualize energy consumption in the home. They have specified the visualization to be:
 
 1. Ambient
