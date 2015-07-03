@@ -2,6 +2,9 @@
 layout: post
 title: Ambient Visualization of Energy(d3.js)
 ---
+
+###[DEMO](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/)
+
 This was a project for a course at KTH, Stockholm in information visualization. The following instructions was giving for the project:
 ```
 ###Instructions
