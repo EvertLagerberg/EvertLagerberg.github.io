@@ -3,7 +3,10 @@ layout: post
 title: World View Survey(WVS) Visualization
 ---
 
-###[DEMO](http://evertlagerberg.github.io/World-View-Survey-Visualization/)
+
+This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/World-View-Survey-Visualization). The following instructions was giving for the project:
+
+Here is live [demo](http://evertlagerberg.github.io/World-View-Survey-Visualization/) of my project
 
 ####Finding interesting Data
 I searched for interesting data in the open database of the World View Survey. They do a worldwide survey with the purpose of studying changing values and their impact on social and political life. The WVS is the largest non-commercial, cross-national, time series investigation of human beliefs and values ever executed, currently including interviews with almost 400,000 respondents. The survey is done almost 100 countries which contain almost 90 percent of the world’s population.
