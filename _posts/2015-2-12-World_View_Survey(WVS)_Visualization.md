@@ -3,7 +3,6 @@ layout: post
 title: World View Survey(WVS) Visualization
 ---
 
-
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/World-View-Survey-Visualization). Here is live [demo](http://evertlagerberg.github.io/World-View-Survey-Visualization/) of my project.
 
 ####Finding interesting Data
