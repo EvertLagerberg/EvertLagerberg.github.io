@@ -12,7 +12,15 @@ images:
   - name: energyviz3.png
     thumb: energyviz3.png
     text: It feels natural that cold water should be represented with blue and hot water with red.
-  
+  - name: energyviz4.png
+    thumb: energyviz4.png
+    text: Electricity cold be yellow or ice blue but yellow looked ugly and blue was already taken. I chose purple.
+  - name: energyviz5.png
+    thumb: energyviz5.png
+    I liked their metaphor for a dashboard for a driving car given by the client
+  - name: energyviz6.png
+    thumb: energyviz6.png
+    text: Blue represents cold water. Red represents hot water. Purple represents Electricity.  
 ---
 
 {% include galheader.html %}
@@ -84,4 +92,5 @@ On the right side, we see the streaming live data of energy consumption in the h
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
 
+{% include gal.html image="energyviz7.png" %}
  
