@@ -21,9 +21,9 @@ images:
   - name: energyviz6.png
     thumb: energyviz6.png
     text: Blue represents cold water. Red represents hot water. Purple represents Electricity.
-  - name: energyviz6.png
-    thumb: energyviz6.png
-    text: Blue represents cold water. Red represents hot water. Purple represents Electricity. 
+  - name: energyviz7.png
+    thumb: energyviz7.png
+    text: Historical view.  
 ---
 
 {% include galheader.html %}
