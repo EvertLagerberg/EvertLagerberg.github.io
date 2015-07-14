@@ -11,7 +11,19 @@ images:
     text: Low fi prototype. From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. The color codes where later changed.
   - name: energyviz3.png
     thumb: energyviz3.png
-    text: It feels natural that cold water should be represented with blue and hot water with red.   
+    text: It feels natural that cold water should be represented with blue and hot water with red.
+  - name: energyviz4.png
+    thumb: energyviz4.png
+    text: Electricity cold be yellow or ice blue, but yellow looked ugly and blue was already taken. I chose purple.
+  - name: energyviz5.png
+    thumb: energyviz5.png
+    I liked their metaphor for a dashboard for a driving car given by the client
+  - name: energyviz6.png
+    thumb: energyviz6.png
+    text: Blue represents cold water. Red represents hot water. Purple represents Electricity.
+  - name: energyviz7.png
+    thumb: energyviz7.png
+    text: History View    
 ---
 
 {% include galheader.html %}
@@ -68,13 +80,13 @@ The structure and characteristics (and lack of) data does not allow us to use ex
 
 
 ###Adding live data
-
+{% include gal.html image="energyviz5.png" %}
 
 
 I am aware of the problems of [rebound effects](http://enviroinfo.eu/sites/default/files/pdfs/vol7574/0013.pdf) in persuasive ICT which aims to lower consumption. As argued by [Owen (2011)](https://www.youtube.com/watch?v=2S1mPOWRsSc) the only effective method of reducing the energy consumption of any system is by the users continuous intent to use less energy. So I wanted to create a visualisation that would inspire the user to always try to lower their energy consumption in comparison with the relevant season of last year.
 
 ###High-fi-prototype:
-
+{% include gal.html image="energyviz6.png" %} 
 
 
 Imagine that we are in looking at the visualisation on Sunday 7 march 2015. The visualisation shows a typical Sunday in March from last year. What this really means is that each hour has been calculated as an average of that hour for every Sunday in march 2014.
@@ -82,4 +94,3 @@ Imagine that we are in looking at the visualisation on Sunday 7 march 2015. The 
 On the right side, we see the streaming live data of energy consumption in the home today. (I made a animation that fast forwards so that one hour is about 1 second but the idea is that the visualisation is updated each hour) Live data has been simulated to produce a randomised by believable output on the same color scale as the 2014 data. The user can compare her consumption today with relevant data from last year – in real time! 
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
-
