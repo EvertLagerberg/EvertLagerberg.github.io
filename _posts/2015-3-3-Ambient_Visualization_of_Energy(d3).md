@@ -68,13 +68,13 @@ The structure and characteristics (and lack of) data does not allow us to use ex
 
 
 ###Adding live data
-{% include gal.html image="energyviz5.png" %}
+
 
 
 I am aware of the problems of [rebound effects](http://enviroinfo.eu/sites/default/files/pdfs/vol7574/0013.pdf) in persuasive ICT which aims to lower consumption. As argued by [Owen (2011)](https://www.youtube.com/watch?v=2S1mPOWRsSc) the only effective method of reducing the energy consumption of any system is by the users continuous intent to use less energy. So I wanted to create a visualisation that would inspire the user to always try to lower their energy consumption in comparison with the relevant season of last year.
 
 ###High-fi-prototype:
-{% include gal.html image="energyviz6.png" %} 
+
 
 
 Imagine that we are in looking at the visualisation on Sunday 7 march 2015. The visualisation shows a typical Sunday in March from last year. What this really means is that each hour has been calculated as an average of that hour for every Sunday in march 2014.
@@ -83,4 +83,3 @@ On the right side, we see the streaming live data of energy consumption in the h
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
 
-{% include gal.html image="energyviz7.png" %}
