@@ -20,17 +20,13 @@ images:
     I liked their metaphor for a dashboard for a driving car given by the client
   - name: energyviz6.png
     thumb: energyviz6.png
-    text: Blue represents cold water, Red represents hot water, Purple represents Electricity
+    text: Blue represents cold water. Red represents hot water. Purple represents Electricity.
   - name: energyviz7.png
     thumb: energyviz7.png
     text: History View    
 ---
 
 {% include galheader.html %}
-
-
-
-
 
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/Ambient-Visualization-of-Energy). Here is live [demo](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/) of my project. 
 
