@@ -11,7 +11,19 @@ images:
     text: Low fi prototype. From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. The color codes where later changed.
   - name: energyviz3.png
     thumb: energyviz3.png
-    text: The third image
+    text: It feels natural that cold water should be represented with blue and hot water with red.
+  - name: energyviz4.png
+    thumb: energyviz4.png
+    text: Electricity cold be yellow or ice blue, but yellow looked ugly and blue was already taken. I chose purple.
+  - name: energyviz5.png
+    thumb: energyviz5.png
+    I liked their metaphor for a dashboard for a driving car given by the client
+  - name: energyviz6.png
+    thumb: energyviz6.png
+    text: Blue = cold water, Red = hot water, Purple = Electricity
+  - name: energyviz7.png
+    thumb: energyviz7.png
+    text: History View    
 ---
 
 {% include galheader.html %}
@@ -65,21 +77,21 @@ The structure and characteristics (and lack of) data does not allow us to use ex
 {% include gal.html image="energyviz2.png" %}
 *Low-fi-prototype: From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water, the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. Important!: The color codes where later changed!*
 
-![My helpful screenshot]({{ site.url }}/images/energyviz3.png)
-*It feels natural that cold water should be represented with blue and hot water with red.*
+{% include gal.html image="energyviz3.png" %}
 
-![My helpful screenshot]({{ site.url }}/images/energyviz4.png)
-*Electricity cold be yellow or ice blue, but yellow looked ugly and blue was already taken. I chose purple.*
+
+{% include gal.html image="energyviz4.png" %}
+
 
 ###Adding live data
-![My helpful screenshot]({{ site.url }}/images/energyviz5.png) 
-*I liked their metaphor for a dashboard for a driving car given by the client*
+{% include gal.html image="energyviz5.png" %}
+
 
 I am aware of the problems of [rebound effects](http://enviroinfo.eu/sites/default/files/pdfs/vol7574/0013.pdf) in persuasive ICT which aims to lower consumption. As argued by [Owen (2011)](https://www.youtube.com/watch?v=2S1mPOWRsSc) the only effective method of reducing the energy consumption of any system is by the users continuous intent to use less energy. So I wanted to create a visualisation that would inspire the user to always try to lower their energy consumption in comparison with the relevant season of last year.
 
 ###High-fi-prototype:
-![My helpful screenshot]({{ site.url }}/images/energyviz6.png) 
-*Blue = cold water, Red = hot water, Purple = Electricity*
+{% include gal.html image="energyviz6.png" %} 
+
 
 Imagine that we are in looking at the visualisation on Sunday 7 march 2015. The visualisation shows a typical Sunday in March from last year. What this really means is that each hour has been calculated as an average of that hour for every Sunday in march 2014.
 
@@ -87,4 +99,4 @@ On the right side, we see the streaming live data of energy consumption in the h
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
 
-![My helpful screenshot]({{ site.url }}/images/energyviz7.png) 
+{% include gal.html image="energyviz7.png" %}
