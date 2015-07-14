@@ -94,3 +94,5 @@ Imagine that we are in looking at the visualisation on Sunday 7 march 2015. The 
 On the right side, we see the streaming live data of energy consumption in the home today. (I made a animation that fast forwards so that one hour is about 1 second but the idea is that the visualisation is updated each hour) Live data has been simulated to produce a randomised by believable output on the same color scale as the 2014 data. The user can compare her consumption today with relevant data from last year – in real time! 
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
+
+{% include gal.html image="energyviz7.png" %} 
