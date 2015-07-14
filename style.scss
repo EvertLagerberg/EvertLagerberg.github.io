@@ -111,10 +111,10 @@ img {
 }
 
 img + em { 
-
+  text-align: center;
+  display: block;
   color: $gray;
-
-}
+  font-size: smaller;
   
 }
 
