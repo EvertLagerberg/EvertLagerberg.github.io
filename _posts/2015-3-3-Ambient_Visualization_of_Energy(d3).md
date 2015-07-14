@@ -25,9 +25,6 @@ images:
     thumb: energyviz7.png
     text: Historical view.    
 ---
-
-{% include galheader.html %}
-
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/Ambient-Visualization-of-Energy). Here is live [demo](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/) of my project. 
 
 The following instructions was giving for the project:
@@ -96,4 +93,6 @@ On the right side, we see the streaming live data of energy consumption in the h
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
 
 {% include gal.html image="energyviz7.png" %}
+
+{% include galheader.html %}
  
