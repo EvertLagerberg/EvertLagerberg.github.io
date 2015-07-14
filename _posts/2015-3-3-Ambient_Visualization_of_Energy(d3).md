@@ -5,10 +5,10 @@ imgfolder: /images
 images:
   - name: energyviz1.png
     thumb: energyviz1.png
-    text: The first image
+    text: data files
   - name: energyviz2.png
     thumb: energyviz2.png
-    text: The second image
+    text: Low-fi-prototype
   - name: energyviz3.png
     thumb: energyviz3.png
     text: The third image
@@ -16,9 +16,9 @@ images:
 
 {% include galheader.html %}
 
-{% include gal.html image="energyviz1.png" %}
 
-{% include gal.html %}
+
+
 
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/Ambient-Visualization-of-Energy). Here is live [demo](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/) of my project. 
 
@@ -52,7 +52,7 @@ Your task is to satisfy the requirements of your client by hosting a webpage wit
 Are you up to the challenge? Do you have any questions?
 
 ###Interpretation of data
-![My helpful screenshot]({{ site.url }}/images/energyviz1.png)
+{% include gal.html image="energyviz1.png" %}
 
 
 - 30-1001 = Home 1, 30-1002 = Home 2
@@ -62,7 +62,7 @@ Are you up to the challenge? Do you have any questions?
 
 ###Visual Mappings
 The structure and characteristics (and lack of) data does not allow us to use exactly the visual mappings of the Boston Flickr project. However we can interpret the adjectives they have given us and create something that at first glance looks similar to that project but really is quite different. Sometimes in interaction design, you have to be creative in how to persuade clients :)
-![My helpful screenshot]({{ site.url }}/images/energyviz2.png) 
+{% include gal.html image="energyviz2.png" %}
 *Low-fi-prototype: From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water, the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. Important!: The color codes where later changed!*
 
 ![My helpful screenshot]({{ site.url }}/images/energyviz3.png)
