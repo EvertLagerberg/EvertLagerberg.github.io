@@ -17,7 +17,7 @@ images:
     text: Electricity cold be yellow or ice blue but yellow looked ugly and blue was already taken. I chose purple.
   - name: energyviz5.png
     thumb: energyviz5.png
-    I liked their metaphor for a dashboard for a driving car given by the client
+    text: I liked their metaphor for a dashboard for a driving car given by the client
   - name: energyviz6.png
     thumb: energyviz6.png
     text: Blue represents cold water. Red represents hot water. Purple represents Electricity.  
