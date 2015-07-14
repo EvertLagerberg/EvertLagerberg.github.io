@@ -111,9 +111,8 @@ img {
 }
 
 img + em { 
-  font-style: italic;
-  color: $gray;
-
+  background: $lightGray;
+  
 }
 
 // Fixes images in popup boxes from Google Translate
