@@ -108,7 +108,11 @@ strong, b {
 
 img {
   max-width: 100%;
-  float: center;
+}
+
+img + em { 
+  color: $gray;
+
 }
 
 // Fixes images in popup boxes from Google Translate
