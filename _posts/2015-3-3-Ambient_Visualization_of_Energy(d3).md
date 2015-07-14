@@ -8,7 +8,7 @@ images:
     text: data files
   - name: energyviz2.png
     thumb: energyviz2.png
-    text: Low-fi-prototype
+    text: Low-fi-prototype: From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water, the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. Important!: The color codes where later changed!
   - name: energyviz3.png
     thumb: energyviz3.png
     text: The third image
