@@ -18,6 +18,8 @@ images:
 
 {% include gal.html image="energyviz1.png" %}
 
+{% include gal.html %}
+
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/Ambient-Visualization-of-Energy). Here is live [demo](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/) of my project. 
 
 The following instructions was giving for the project:
