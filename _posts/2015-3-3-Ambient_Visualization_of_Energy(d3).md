@@ -1,7 +1,20 @@
 ---
 layout: post
 title: Ambient Visualization of Energy(d3.js)
+imgfolder: /images
+images:
+  - name: energyviz1.png
+    thumb: energyviz1.png
+    text: The first image
+  - name: energyviz2.png
+    thumb: energyviz2.png
+    text: The second image
+  - name: energyviz3.png
+    thumb: energyviz3.png
+    text: The third image
 ---
+
+{% include galheader.html %}
 
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/Ambient-Visualization-of-Energy). Here is live [demo](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/) of my project. 
 
