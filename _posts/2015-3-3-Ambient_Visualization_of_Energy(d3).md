@@ -95,4 +95,4 @@ On the right side, we see the streaming live data of energy consumption in the h
 
 By choosing "History" in the menu, she can also access a full visualisation of last year, per month, week or day to analyse her patterns and be more aware of her ecological footprint.
 
-{% include gal.html image="energyviz7.png" %} 
+ 
