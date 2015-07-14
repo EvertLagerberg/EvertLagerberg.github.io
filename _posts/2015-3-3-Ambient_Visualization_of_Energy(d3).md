@@ -11,19 +11,7 @@ images:
     text: Low fi prototype. From the Boston Flickr project I kept the circular shape and the use of colors and color intensity. The inner ring represents cold water the middle ring hot water and the outer ring electricity. The intensity of the color shows high and low periods of consumption. The color codes where later changed.
   - name: energyviz3.png
     thumb: energyviz3.png
-    text: It feels natural that cold water should be represented with blue and hot water with red.
-  - name: energyviz4.png
-    thumb: energyviz4.png
-    text: Electricity cold be yellow or ice blue, but yellow looked ugly and blue was already taken. I chose purple.
-  - name: energyviz5.png
-    thumb: energyviz5.png
-    I liked their metaphor for a dashboard for a driving car given by the client
-  - name: energyviz6.png
-    thumb: energyviz6.png
-    text: Blue represents cold water. Red represents hot water. Purple represents Electricity.
-  - name: energyviz7.png
-    thumb: energyviz7.png
-    text: History View    
+    text: It feels natural that cold water should be represented with blue and hot water with red.   
 ---
 
 {% include galheader.html %}
