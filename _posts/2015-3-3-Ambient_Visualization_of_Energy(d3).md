@@ -36,6 +36,7 @@ Are you up to the challenge? Do you have any questions?
 
 ###Interpretation of data
 ![My helpful screenshot]({{ site.url }}/images/energyviz1.png)
+*image_caption*
 
 - 30-1001 = Home 1, 30-1002 = Home 2
 - El/KV/VV = A running measurement tool that at each hour marks the consumed energy(electricity, cold water and hot water) and then resets to zero.
