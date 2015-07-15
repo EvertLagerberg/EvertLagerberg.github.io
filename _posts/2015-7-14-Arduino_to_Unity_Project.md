@@ -4,7 +4,7 @@ title: Arduino to Unity Project
 imgfolder: /images/Arduino_to_Unity
 images:
   - name: 1.png
-    thumb: 1.png
+    thumb: t1.png
     text: Wiring Diagram to turn LED on and off with button   
 ---
 #Alternative input modalities for interaction in Unity
@@ -55,5 +55,7 @@ For the wiring I simply used the schematics provided from the retailer where I b
 I edited the arduino sketch from the tutorial as to also printed the "1" if the button was pressed and "0" if it was open.
 
 Here was the result:
+
+<iframe src="https://player.vimeo.com/video/129361406" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 {% include galheader.html %}
