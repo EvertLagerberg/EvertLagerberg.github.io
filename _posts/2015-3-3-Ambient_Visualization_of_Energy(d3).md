@@ -28,9 +28,9 @@ images:
 This was a project for a course at KTH, Stockholm in information visualization. I used [d3.js](http://d3js.org) to build this project. The code is available in this [repo](https://github.com/EvertLagerberg/Ambient-Visualization-of-Energy). Here is live [demo](http://evertlagerberg.github.io/Ambient-Visualization-of-Energy/) of my project. 
 
 The following instructions was giving for the project:
-
+```
 <div style = 'font-family: "Courier New", Courier, monospace'>
-<h3>Instructions</h3>
+<p>Instructions</p>
 
 <p>Fortum has hired you to visualize energy consumption in the home. They have specified the visualization to be:</p>
 
@@ -58,7 +58,7 @@ The following instructions was giving for the project:
 
 <p>Are you up to the challenge? Do you have any questions?</p>
 </div>
-
+```
 ###Interpretation of data
 {% include gal.html image="energyviz1.png" %}
 
