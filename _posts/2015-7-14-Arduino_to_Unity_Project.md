@@ -35,6 +35,26 @@ images:
     text: WASD vs Dual analog Comparison
 ---
 
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Part 1: Project Specification](#)
+		- [Background](#)
+		- [Problem](#)
+		- [Project plan:](#)
+		- [Evaluation:](#)
+		- [Limits:](#)
+- [Part 2: Testing,testing..](#)
+		- [Arduino to Serial:](#)
+- [Part 3:Components and soldering](#)
+- [Part 4: Thumbsticks 8 directions input to Unity](#)
+- [Part 5: State of the art controller conventions](#)
+		- [D-Pad](#)
+		- [Joysticks/Arcade sticks](#)
+		- [Dual analog sticks](#)
+		- [Keyboard(WASD) + Mouse](#)
+		- [WASD vs Dual analog Comparison](#)
+		- [Conclusion](#)
+		
 #Part 1: Project Specification
 
 ###Background
