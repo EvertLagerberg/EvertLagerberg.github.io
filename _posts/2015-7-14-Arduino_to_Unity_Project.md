@@ -35,6 +35,8 @@ images:
     text: WASD vs Dual analog Comparison
 ---
 
+<div id="toc"></div>
+
 #Part 1: Project Specification
 
 ###Background
@@ -153,3 +155,4 @@ I will use the dual analog stick convention  and try to use the interaction and 
 
 
 {% include galheader.html %}
+{% include toc.html %}
