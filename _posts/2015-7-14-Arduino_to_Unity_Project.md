@@ -116,7 +116,7 @@ I then added the C#-script to the first person camera
 
 <iframe src="https://player.vimeo.com/video/129476213" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-#Part 5: State of the art game controller conventions
+#Part 5: State of the art controller conventions
 As of part 4 I have created a 8-directional joystick input from an Arduino to Unity. I have created a script to read the Arduino input over serial in Unity and added that script to control the movement of the FPS Camera.
 
 The next natural step of my project according to the limit-section of my project specification would be to add a second joystick to control camera rotation of the FPS camera in Unity. However, playing around with my 8-directional joystick I started thinking about game controller conventions. How many directions should I be able to move in? Is 8 directions sufficient? This blog is a brief study on game controller conventions.
