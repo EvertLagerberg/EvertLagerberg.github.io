@@ -16,6 +16,8 @@ images:
 
 <div id="toc"></div>
 
+My goal with this project was to investigate how analog input sensor data could be transferred from Arduino to Unity over a serial port. I wanted to see if this could be done satisfactorily enough to control an in-game character’s movement.
+
 #Part 6: From zones to direction vectors
 
 In my previous implementation of the Arduino directional input to Unity I divided the scales of the Y and X-axis ranges and gave each zone a number 0-8. This way I only needed to send that number over Serial to Unity. But that also meant that I only could input 8 directions(+ 0 for standing still). After doing some state of the art research I decided that this was not enough. I wanted to be able to input any direction(360 degrees).
