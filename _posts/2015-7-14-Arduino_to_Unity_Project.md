@@ -5,7 +5,16 @@ imgfolder: /images/Arduino_to_Unity
 images:
   - name: 1.png
     thumb: t1.png
-    text: Wiring Diagram to turn LED on and off with button   
+    text: Wiring Diagram to turn LED on and off with button
+  - name: 2.png
+    thumb: t2.png
+    text: The thumbstick consist of two potentiometers one for horizontal movement (X-axis) and one for Vertical(Y-axis). You can also press down on the thumbstick to press a button. 
+  - name: 3.png
+    thumb: t3.png
+    text: I soldered the thumbstick to the breakout board and then soldered on a 5pin header to be able to connect cables to the break out board.
+  - name: 4.png
+    thumb: t4.png
+    text: The same link also provided a example sketch to print out the values of the horisontal and vertical potentiometers. 
 ---
 #Alternative input modalities for interaction in Unity
 
@@ -54,8 +63,32 @@ For the wiring I simply used the schematics provided from the retailer where I b
 
 I edited the arduino sketch from the tutorial as to also printed the "1" if the button was pressed and "0" if it was open.
 
-Here was the result:
-
 <iframe src="https://player.vimeo.com/video/129361406" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+###Part 3:Components and soldering
+
+I ordered some new components for my project:
+
+- 2 x [thumbstick joysticks](https://www.sparkfun.com/products/9032)
+- 2 x [break out board(for the joysticks)](https://www.sparkfun.com/products/9110)
+- 1 x [connecting headers](https://www.sparkfun.com/products/116)
+
+{% include gal.html image="2.png" %}
+
+{% include gal.html image="3.png" %}
+
+Then I connected the thumbstick to the arduino as described [here](http://42bots.com/tutorials/arduino-joystick-module-example/)
+
+{% include gal.html image="4.png" %}
+ 
+The sketch worked fine. I noticed that both potentiometers had a range of 1-1020. For example, pushing the thumbstick all the way forward showed 1020 on the X-axis and 510 on the Y-axis. I wanted to define 8 directions on the thumbstick input so I wrote a sketch that printed a number depending on within which range it was.
+
+{% include gal.html image="4.png" %}
+
+The result:
+<iframe src="https://player.vimeo.com/video/129476287" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
 
 {% include galheader.html %}
