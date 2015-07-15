@@ -67,6 +67,7 @@ The first off this assignment was making sense of a cryptic and incomplete data 
 
 {% include gal.html image="energyviz1.png" %}
 
+From going through the files I concluded that:
 
 - 30-1001 = Home 1, 30-1002 = Home 2
 - El/KV/VV = A running measurement tool that at each hour marks the consumed energy(electricity, cold water and hot water) and then resets to zero.
