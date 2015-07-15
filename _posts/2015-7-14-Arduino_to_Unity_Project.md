@@ -14,7 +14,10 @@ images:
     text: I soldered the thumbstick to the breakout board and then soldered on a 5pin header to be able to connect cables to the break out board.
   - name: 4.png
     thumb: t4.png
-    text: The same link also provided a example sketch to print out the values of the horisontal and vertical potentiometers. 
+    text: The same link also provided a example sketch to print out the values of the horisontal and vertical potentiometers.
+  - name: 5.png
+    thumb: t5.png
+    text: Sketch of 8-directional joystick. 
 ---
 #Alternative input modalities for interaction in Unity
 
