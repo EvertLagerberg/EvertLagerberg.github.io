@@ -17,7 +17,10 @@ images:
     text: The same link also provided a example sketch to print out the values of the horisontal and vertical potentiometers.
   - name: 5.png
     thumb: t5.png
-    text: Sketch of 8-directional joystick. 
+    text: Sketch of 8-directional joystick.
+  - name: 6.png
+    thumb: t6.png
+    text: Sketch of 8-directional joysticks directional vectors. 
 ---
 #Alternative input modalities for interaction in Unity
 
@@ -91,6 +94,15 @@ The sketch worked fine. I noticed that both potentiometers had a range of 1-1020
 The result:
 
 <iframe src="https://player.vimeo.com/video/129476287" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+###Part 4: Thumbsticks 8 directions input to Unity
+I rewrote the Unity C#-script I wrote when I tested with just one button, to act differently on 8 different states(+ 1 state for doing nothing) instead of just on/off that I had for the button. Each number indicates which direction vector is to be used in Unitys tranform.Translate()-function. When we move, we want to move along the x-axis and z-axis but be constant on the y-axis. So the vectors are as follows:
+
+{% include gal.html image="6.png" %}
+
+I then added the C#-script to the first person camera
+
+<iframe src="https://player.vimeo.com/video/129476213" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 
