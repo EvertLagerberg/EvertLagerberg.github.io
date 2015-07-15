@@ -71,7 +71,7 @@ I edited the arduino sketch from the tutorial as to also printed the "1" if the 
 
 <iframe src="https://player.vimeo.com/video/129361406" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-###Part 3:Components and soldering
+#Part 3:Components and soldering
 
 I ordered some new components for my project:
 
@@ -95,7 +95,7 @@ The result:
 
 <iframe src="https://player.vimeo.com/video/129476287" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-###Part 4: Thumbsticks 8 directions input to Unity
+#Part 4: Thumbsticks 8 directions input to Unity
 I rewrote the Unity C#-script I wrote when I tested with just one button, to act differently on 8 different states(+ 1 state for doing nothing) instead of just on/off that I had for the button. Each number indicates which direction vector is to be used in Unitys tranform.Translate()-function. When we move, we want to move along the x-axis and z-axis but be constant on the y-axis. So the vectors are as follows:
 
 {% include gal.html image="6.png" %}
@@ -104,7 +104,35 @@ I then added the C#-script to the first person camera
 
 <iframe src="https://player.vimeo.com/video/129476213" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+#Part 5: State of the art game controller conventions
+As of part 4 I have created a 8-directional joystick input from an Arduino to Unity. I have created a script to read the Arduino input over serial in Unity and added that script to control the movement of the FPS Camera.
 
+The next natural step of my project according to the limit-section of my project specification would be to add a second joystick to control camera rotation of the FPS camera in Unity. However, playing around with my 8-directional joystick I started thinking about game controller conventions. How many directions should I be able to move in? Is 8 directions sufficient? This blog is a brief study on game controller conventions.
+
+###D-Pad
+The d-pad(short for directional pad) was an early game controller convention, used on home gaming consoles such as the NES, SNES and Playstation among others. The d-pad have four digital buttons which each gives input of one direction (UP, RIGHT, DOWN, LEFT). However in some implementations of the d-pad, the user can get diagonal directions by pressing two buttons. For example pressing both UP and RIGHT would result in a direction input of a diagonal direction between up and and right. Today these are mostly used in 2D-plattform games. The user input in most games a quite straight forward. The user presses the button in the direction he/she wants to move the character and the character moves in that direction.
+
+###Joysticks/Arcade sticks:
+Joysticks or arcade sticks are a directional controller type that consists of a single stick which gives a digital input depending on its position. Joysticks are available in 2-way, 4-way and 8-way set ups, describing the amount of directions possible to move. Today these are mostly used for fighting games where you want to execute exact button combinations do perform in-game combo attacks.
+
+###Dual analog sticks:
+Modern home gaming consoles often uses the convention of two dual sticks. The sticks placed on a controller held with both hand and each thumb is resting on one thumbstick. The convention is that the left thumbstick is controlling the character movement and the right thumbstick is controlling the camera rotation. For a first person perspective game this means that the user walks by pressing the left thumbstick in some direction and control the direction the character is turned towards with the right thumbstick. The user input of analog sticks enables user input in any direction (360 degrees) for each stick, meaning that the user can move/rotate in any possible direction. 
+
+This user input requires some training to get accustomed to. Novice user sometimes think it difficult to control these two different movement systems at the same time (plus a dozen other digital buttons usually on these modern controllers). 
+
+###Keyboard(WASD) + Mouse
+On PC the controller convention is to control the movement of the player character with the keyboard and rotation of the camera with the mouse. For a first person game this mean the user walks with the help of four digitial buttons on the keyboard (W, A, S, D) and controll the direction the caracter is turning to with the mouse. This is interesting, because the keyboard + mouse controller conventions only have 4 directional input instead of 360 degrees as the dual analog stick. However often the same game are available over a range of platforms where both these conventions are present. I ended thinking about this a lot, until I decided to do a small comparison.
+
+###WASD vs Dual analog Comparison
+I tested controlling a first person perspective game first with a WASD + mouse and then with a dual analog stick controller. The "game" I tested with WASD was the Unity FPSCamera. With WASD you can only mouse in four directions. The convention is that you move with the same speed in all directions. Moving sideways by pressing A or S and holding the mouse relatively still makes you move sideways while not turned that way. In real life this movement would be called side-stepping but in games it is called "Strafing". This movement is unnatural since in real life a human can not side-step without decreasing movement speed. In game however, strafing is a common movement convention. However, the the mouse is used to rotate the camera. Moving the mouse forward/backwards results in a motion that in the real world would be moving the head up and down. Moving the mouse left or right represents a motion that by real world terms could be described as turning the whole body in that direction. This means that pressing the digital button W on the keyboard will move the camera forward, however, by turning the mouse to the left/right, changes the rotation of the camera and therefore the direction that is forward. In this way, the WASD + mouse conventions can still move in any possible direction (360 degrees)
+
+The game I tested with a dual analog stick was Bioshock Infinite and I used a Playstation 3 controller.
+In comparison to the WASD for movement control, the left thumbstick enables the user to move in any direction(360 degrees). I am not sure if the analog controller input is divided into zones or if it is really completely "any direction", but the user experience is that you can move in any direction. In other words, the control is sensible enough that I can move in a direction of 35 degrees or 45 degrees. However, playing the game I noticed that I am do not give very exact inputs down to a certain direction degree. Rather I tend to move forward and backwards and strafe left and right, occasionally moving diagonally, oftenthe 4 direction convention of the WASD. To do exact movement, instead I use the right stick to turn the direction of "forward", just as I would to with the mouse.  However, the right stick movement is not as quick and exact as using a mouse, so my experience was that I am compensating the slowliness of the right stick, by also using the left stick(more than I would WASD) to adjust movement direction. The combination of the the dual sticks then is a quite complex user input, both controlling the camera movement and the right stick also controlling camera rotation. It is not entirely obvios how to understand the coagency of both thumbs in this set up. I find it very complex and intersting in a way that I have not thought of when previously playing video games.
+
+The camera rotation of the right stick can be made faster/slower depending on how far the analog stick is pushed in a certain direction. If I push the right thumbstick a litte to the right the camera will slowly rotate that way, however If I push it further the the camera rotation will be faster. The user experience is that the change of speed is not in steps but continues. I also noted that the maximum rotation speed UP/DOWN was set to much slower than rotation LEFT/RIGHT in the particular game I tested with(Bioshock Infinite).
+
+###Conclusion 
+I will use the dual analog stick convention  and try to use the interaction and user expereience from the control of Bioshock infinite to shape my user input.
 
 
 {% include galheader.html %}
