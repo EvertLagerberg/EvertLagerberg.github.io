@@ -63,7 +63,7 @@ I will start with trying to implement the control of the camera in unity with a 
 To start off my project I wanted to do a quick and dirty session with the goal to set up a connection between the Arduino IDE and Unity. For this session I had the following equipment:
 
 Hardware:
-1 An Arduino Uno microprocessor
+1. An Arduino Uno microprocessor
 2. A Breadboard and Cables
 3. a 3-Pin Button
 4. a LED-lamp
