@@ -13,8 +13,10 @@ images:
     thumb: t14.png
     text: From outside. This allowed me to hold the box with one hand on each side and resting each thumb och each thumbstick
 ---
-<div id="toc"></div>
+
 My goal with this project was to investigate how analog input sensor data could be transferred from Arduino to Unity over a serial port. I wanted to see if this could be done satisfactorily enough to control an in-game character’s movement.
+
+<div id="toc"></div>
 
 #Part 6: From zones to direction vectors
 
