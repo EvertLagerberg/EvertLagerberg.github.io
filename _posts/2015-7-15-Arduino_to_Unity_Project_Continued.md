@@ -13,9 +13,7 @@ images:
     thumb: t14.png
     text: From outside. This allowed me to hold the box with one hand on each side and resting each thumb och each thumbstick
 ---
-
 <div id="toc"></div>
-
 My goal with this project was to investigate how analog input sensor data could be transferred from Arduino to Unity over a serial port. I wanted to see if this could be done satisfactorily enough to control an in-game character’s movement.
 
 #Part 6: From zones to direction vectors
@@ -112,7 +110,9 @@ I learned from this article that a better deadzone is implemented by using the m
 
 
 [Video demo](https://vimeo.com/130634142)
+
 [Github](https://github.com/EvertLagerberg/Dual-Analog-Stick-Controller-for-Unity)
+
 [Wiring Diagram](https://github.com/EvertLagerberg/Dual-Analog-Stick-Controller-for-Unity/blob/master/WiringDiagram.png)
 
 
