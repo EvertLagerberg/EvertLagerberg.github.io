@@ -83,9 +83,10 @@ Then I connected the thumbstick to the arduino as described [here](http://42bots
  
 The sketch worked fine. I noticed that both potentiometers had a range of 1-1020. For example, pushing the thumbstick all the way forward showed 1020 on the X-axis and 510 on the Y-axis. I wanted to define 8 directions on the thumbstick input so I wrote a sketch that printed a number depending on within which range it was.
 
-{% include gal.html image="4.png" %}
+{% include gal.html image="5.png" %}
 
 The result:
+
 <iframe src="https://player.vimeo.com/video/129476287" width="500" height="888" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
