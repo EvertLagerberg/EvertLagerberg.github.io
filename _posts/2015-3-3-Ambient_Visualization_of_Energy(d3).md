@@ -29,8 +29,10 @@ This was a project for a course at KTH, Stockholm in information visualization. 
 
 The following instructions was giving for the project:
 
-###Instructions
-Fortum has hired you to visualize energy consumption in the home. They have specified the visualization to be:
+<div style = 'font-family: "Courier New", Courier, monospace'>
+<h3>Instructions</h3>
+
+<p>Fortum has hired you to visualize energy consumption in the home. They have specified the visualization to be:</p>
 
 1. Ambient
 2. Peripheral
@@ -42,19 +44,20 @@ Fortum has hired you to visualize energy consumption in the home. They have spec
 8. A really cool dashboard for "understanding" home life (like the dashboard for driving the car)
 9. The best visualization of home energy rhythms in the world
 
-Also, they want the visualization to run on a browser. Furthermore, they have asked you to make the visualization look like Fernanda Viegas and Martin Wattenberg's One Year of Boston Flickr image. A circle representing time with rich and deep layers of color. The visualization will go on a tablet embedded in the wall of the new apartments of the Royal Seaport in Stockholm. Home dwellers should feel proud of their "work of art" on the wall. They should show it to their guests when they come home. They should be able to see patterns of activity and energy usage in the home.
+<p>Also, they want the visualization to run on a browser. Furthermore, they have asked you to make the visualization look like Fernanda Viegas and Martin Wattenberg's One Year of Boston Flickr image. A circle representing time with rich and deep layers of color. The visualization will go on a tablet embedded in the wall of the new apartments of the Royal Seaport in Stockholm. Home dwellers should feel proud of their "work of art" on the wall. They should show it to their guests when they come home. They should be able to see patterns of activity and energy usage in the home.</p>
 
-To accomplish this task, they have given you some cryptic data, claiming it is the recording of electricity, hot and cold water use in two real homes.
+<p>To accomplish this task, they have given you some cryptic data, claiming it is the recording of electricity, hot and cold water use in two real homes.</p>
 
-https://www.dropbox.com/sh/c0ehfu4bnfln7x4/AACI2c834-D8kuSCHpsvoQA-a?dl=0
+<p>https://www.dropbox.com/sh/c0ehfu4bnfln7x4/AACI2c834-D8kuSCHpsvoQA-a?dl=0</p>
 
-You may have to figure out what the data is and how it is represented.
+<p>You may have to figure out what the data is and how it is represented.</p>
 
-You remember that in your visualization course you talked about casual visualizations by some authors, their names may have been Zach Pousman, John Stasko, and Michael Mateas. Perhaps some of the material there may inspire you. You think you may have to read a bit more about ambient visualizations and calm technology.
+<p>You remember that in your visualization course you talked about casual visualizations by some authors, their names may have been Zach Pousman, John Stasko, and Michael Mateas. Perhaps some of the material there may inspire you. You think you may have to read a bit more about ambient visualizations and calm technology.</p>
 
-Your task is to satisfy the requirements of your client by hosting a webpage with the clock. It should have a subtle link to a 300-word explanation of your data mappings, visual structures, and other choices.
+<p>Your task is to satisfy the requirements of your client by hosting a webpage with the clock. It should have a subtle link to a 300-word explanation of your data mappings, visual structures, and other choices.</p>
 
-Are you up to the challenge? Do you have any questions?
+<p>Are you up to the challenge? Do you have any questions?</p>
+</div>
 
 ###Interpretation of data
 {% include gal.html image="energyviz1.png" %}
