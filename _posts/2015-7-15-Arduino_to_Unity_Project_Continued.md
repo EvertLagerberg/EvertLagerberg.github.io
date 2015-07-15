@@ -102,7 +102,7 @@ Today I read a very interesting article/blog about how to program deadzones. It 
 
 I learned from this article that a better deadzone is implemented by using the magnitude of the vector insted of just the vector x and y values. I changed my script to a solution based on this implementation and the result was somewhat smoother.
 
-#Project presentation:
+#Project presentation
 
 <iframe src="https://player.vimeo.com/video/130634142" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/130634142">DIY Arduino Dual Analog Stick Controller</a> from <a href="https://vimeo.com/milionstylez">Evert Lagerberg</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
@@ -127,7 +127,7 @@ The process has gone quite smoothly, and I have been able to solve the problems 
 
 Other than problems with drawing wires and programming the scripts, it has also been very interesting to think about the dual analog stick controller convention of video games. Early in the process I decided to play a first person perspective game with a PlayStation 3 controller to get a feel for the dual analog controller. I found that interaction of moving a imagined player character with  the left stick and controlling the movement of the head of the imagined player character with the right stick is quite complex. Having played this kind of games, with this interaction convention for many years, I still find it quite hard to describe how the two interactions inputs are used as one. There are also several conventions to this interaction that the player is fully to partly unaware of. For example different speeds of vertical and horizontal rotation of the player characters head, or the implementation of a deadzone. It is very interesting to think more about how tangible interaction can be very complex, but quite simple for a user familiarised with the specific input convention.
 
-###Outcome:
+###Outcome
 Please follow this link to see a video demonstration to see the final version of my project. 
 
 I have succeeded in using sensor input data from an Arduino to build a custom controller script in Unity. In my implementation you move the character in any direction by pushing the left thumbstick. How far from it’s initial position you push it determine the speed of movement of the character, enabling you to both very small and precise movements and quicker movements. Pushing the right thumbstick will rotate the camera of the character in that direction, again rotating fast or slow depending of how far you push the joystick. By pressing the right thumbstick button down you can make the character jump and then fall back towards the ground.
@@ -140,7 +140,7 @@ All this interaction is created from six variables sent over serial port from Ar
 5. Left button state(not used)
 6. Right button state
 
-#1-4 are three digit numbers in the range of -510 < val < 510 which means that they will not fit in a byte. The Arduino IDE allows sending of data over serial port as bytes, array of bytes or strings(then converted to bytes). In my implementation I send lines of strings that are then in Unity split and parsed to integers. However, reading a string from the serial port takes time and since the the Arduino is sending data continuously over the serial port this can cause asynchrony problems. To make this work smoothly I added some delay(4 ms) at the end of each loop in the Arduino script and a maximum time(5 ms) for Unity to read in a line of strings. This delay causes a drop in frame rate in Unity. I still managed to keep it above 60FPS in a rudimentary scene and above 30FPS in a fully texturized scene with terrain, running on a Macbook air. 
+1-4 are three digit numbers in the range of -510 < val < 510 which means that they will not fit in a byte. The Arduino IDE allows sending of data over serial port as bytes, array of bytes or strings(then converted to bytes). In my implementation I send lines of strings that are then in Unity split and parsed to integers. However, reading a string from the serial port takes time and since the the Arduino is sending data continuously over the serial port this can cause asynchrony problems. To make this work smoothly I added some delay(4 ms) at the end of each loop in the Arduino script and a maximum time(5 ms) for Unity to read in a line of strings. This delay causes a drop in frame rate in Unity. I still managed to keep it above 60FPS in a rudimentary scene and above 30FPS in a fully texturized scene with terrain, running on a Macbook air. 
 
 The transfer of data in my implementation is quite stable which makes the interaction feel smooth and instant. The implementation of speed of movement/rotation depending on how far the thumbtack is pushed, makes it possible to performs accurate movement of the camera. 
 
@@ -150,7 +150,7 @@ Technical evaluation: The prototype controller can be used in a fully textured U
 User test: I did a very limited user study with one user. This user had extended experiences playing first person perspective - video games with both WASD + mouse -input and dual analog stick gamepads. I used the talk aloud methodology where the participant are asked to voice their thoughts while performing specified tasks. I did not tell the user beforehand how the game was controlled. The only instructions given to the user was how to hold the controller correctly so that the thumbs rested on the thumbsticks. The user immediately understood that the controls where according to a dual analog stick movement convention and started moving around the environment. The users first voiced impression was that the movement speed of left thumbstick was to high and that a quick push would move the character further than wanted/expected. However, in about 30 seconds more of testing the user understood that movement speed depended on how far the analog stick was pushed. After this feature was explained the user was more comfortable. Within minutes the users had adapted to user the controller without problems. The user also gave feedback that he felt that he should be able to move the character even when being in the middle of a jump. He stated that even if you realistically could not move around and strafe in the middle of a jump in real life, his impression was that you can do that in many similar games. During no part of the test did the user voice frustration over technical or interaction problems. The impression is that the user found the experience satisfactory.
 
 
-###Discussion:
+###Discussion
 I have made a proof of concept implementation sending sensor input data from Arduino to Unity and using it there to control a character. There are several ways to improve or further develop this project.
 
 As mentioned in this report, the transferring of data was done by sending lines of strings over a serial port from Arduino to Unity. It is possible, that the transfer of data can be optimized to increase frame rate in Unity. I chose to not focus too much on such optimization since I wanted to spend more time improving the user interaction. 
