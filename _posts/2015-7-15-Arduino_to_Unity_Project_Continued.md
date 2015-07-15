@@ -14,27 +14,6 @@ images:
     text: From outside. This allowed me to hold the box with one hand on each side and resting each thumb och each thumbstick
 ---
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
-
-- [Alternative input modalities for interaction in Unity](#)
-- [Part 1: Project Specification](#)
-		- [Background](#)
-		- [Problem](#)
-		- [Project plan:](#)
-		- [Evaluation:](#)
-		- [Limits:](#)
-- [Part 2: Testing,testing..](#)
-		- [Arduino to Serial:](#)
-- [Part 3:Components and soldering](#)
-- [Part 4: Thumbsticks 8 directions input to Unity](#)
-- [Part 5: State of the art controller conventions](#)
-		- [D-Pad](#)
-		- [Joysticks/Arcade sticks](#)
-		- [Dual analog sticks](#)
-		- [Keyboard(WASD) + Mouse](#)
-		- [WASD vs Dual analog Comparison](#)
-		- [Conclusion](#)
-
 #Part 6: From zones to direction vectors
 
 In my previous implementation of the Arduino directional input to Unity I divided the scales of the Y and X-axis ranges and gave each zone a number 0-8. This way I only needed to send that number over Serial to Unity. But that also meant that I only could input 8 directions(+ 0 for standing still). After doing some state of the art research I decided that this was not enough. I wanted to be able to input any direction(360 degrees).
