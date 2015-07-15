@@ -29,7 +29,7 @@ This was a project for a course at KTH, Stockholm in information visualization. 
 
 The following instructions was giving for the project:
 
-```
+
 <div style = 'font-family: "Courier New", Courier, monospace'>
 <p>Instructions</p>
 
@@ -59,9 +59,12 @@ The following instructions was giving for the project:
 
 <p>Are you up to the challenge? Do you have any questions?</p>
 </div>
-```
+
 
 ###Interpretation of data
+The first off this assignment was making sense of a cryptic and incomplete data set. My interpretation was as follows:
+
+
 {% include gal.html image="energyviz1.png" %}
 
 
