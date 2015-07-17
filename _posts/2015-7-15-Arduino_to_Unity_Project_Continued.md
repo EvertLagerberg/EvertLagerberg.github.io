@@ -18,7 +18,6 @@ Continuation of my project with Arduino and Unity, adding a second analog stick 
 <div id="toc"></div>
 
 #Part 6: From zones to direction vectors
-
 In my previous implementation of the Arduino directional input to Unity I divided the scales of the Y and X-axis ranges and gave each zone a number 0-8. This way I only needed to send that number over Serial to Unity. But that also meant that I only could input 8 directions(+ 0 for standing still). After doing some state of the art research I decided that this was not enough. I wanted to be able to input any direction (360 degrees).
 
 To do this we can picture the the analog stick in a coordinate system where the rested position of the thumbstick is in the origo(x1, y1). If I then move the thumb stick in any direction that is going to change the potentiometers value so that I get an x2, y2 position.
