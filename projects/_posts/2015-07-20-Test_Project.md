@@ -8,12 +8,6 @@ member1:
 member2:
   name: John Smith
   age: 33
-member3:
-  name: John Smith
-  age: 33
-member4:
-  name: John Smith
-  age: 33
 resources: d3.js and google maps API
 ---
 
