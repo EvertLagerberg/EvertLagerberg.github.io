@@ -5,7 +5,17 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   <h4>{{ page.tagline }}</h4>
-  <p> created together with {{ page.team }}
+
+    <dl class="dl-horizontal">
+    {{#member1}}
+      <dt>Name:</dt> <dd>{{name}}</dd>
+      <dt>Email:</dt>  <dd><a href='{{age}}'></dd>
+    {{/people}}
+    {{#member2}}
+      <dt>Name:</dt> <dd>{{name}}</dd>
+      <dt>Email:</dt>  <dd><a href='{{age}}'></dd>
+    {{/morePeople}}
+  </dl>
 
   <div class="entry">
     {{ content }}

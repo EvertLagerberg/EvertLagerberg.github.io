@@ -2,8 +2,19 @@
 layout: project
 title: 3D Modeling project part 1 Blender
 tagline: This is my first project
-team: Moa(moa at kth.se)
-resources: [d3.js](http://d3js.org/) and google maps API
+member1:
+  name: Evert
+  age: mailto:evert.lagerberg@gmail.com
+member2:
+  name: John Smith
+  age: 33
+member3:
+  name: John Smith
+  age: 33
+member4:
+  name: John Smith
+  age: 33
+resources: d3.js and google maps API
 ---
 
 Hi This was my first project
