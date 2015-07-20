@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.categories['projects'] %}
+  {% for post in site.posts %}
     <article class="post">
 
    	<div>[{{ post.date | date: "%-d %B %Y" }}]</div>
@@ -18,18 +18,3 @@ layout: default
   {% endfor %}
 </div>
 
-<div class="posts">
-  {% for post in site.categories['blog'] %}
-    <article class="post">
-
-   	<div>[{{ post.date | date: "%-d %B %Y" }}]</div>
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      
-    </article>
-  {% endfor %}
-</div>
