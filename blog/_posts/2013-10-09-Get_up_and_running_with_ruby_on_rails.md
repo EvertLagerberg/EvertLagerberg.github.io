@@ -3,7 +3,7 @@ layout: post
 title: Get up and running with ruby on rails
 ---
 
-I first started out using ruby on rails earlier this year and it was a real hassle to get it all working. This post is a collection of guides and tutorials I have found helpful.
+I first started out using ruby on rails earlier this year and it was a real hassle to get it all working. This post is a collection of guides and tutorials I have found helpful (...)
 
 This time around on another computer it was easier since i knew how to do it. Here are some tips for setting up ruby on rails on OS X Mountain Lion.
 
