@@ -23,13 +23,15 @@ footer-links:
   flickr:
   github: https://github.com/EvertLagerberg
   instagram:
-  linkedin:
+  linkedin:https://se.linkedin.com/pub/evert-lagerberg/26/2a6/bb8
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
+  vimeo: https://vimeo.com/evertlagerberg
+
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
