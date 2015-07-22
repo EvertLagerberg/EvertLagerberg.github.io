@@ -8,3 +8,4 @@ resources: d3.js and google maps API
 
 Hi This was my first project
 <button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
