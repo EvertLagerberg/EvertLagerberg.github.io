@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+*This page is under construction*
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I have bachelor in Media Technology at KTH, Stockholm. I am currently studying a master program in
+Human Computer Interaction. It is a program about designing interaction and user experiences. That includes interaction through web interfaces but also interaction with other input/feedback modalities such as haptic, audio and so on. User research is also a big part of the program to find out user needs and to validate prototypes.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[evert.lagerberg@gmail.com](mailto:evert.lagerberg@gmail.com)
